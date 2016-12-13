@@ -1,8 +1,10 @@
 # ZWProgramTimerView
 Quickly Build A Timer View
 
-#Show What it is    
+#Show What it is    
+##quickly build the timer view 
 ![image](https://github.com/liunianhuaguoyanxi/ZWProgramTimerView/blob/master/Gif/ZWProgramTimer.gif)
+##quickly the timer view can start ,pause,continue,end
 ![image](https://github.com/liunianhuaguoyanxi/ZWProgramTimerView/blob/master/Gif/ZWProgramTimer1.gif)
 #How to use
 ## Init 初始化（important）
