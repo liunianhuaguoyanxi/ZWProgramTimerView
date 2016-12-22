@@ -1,7 +1,6 @@
 # ZWProgramTimerView
-Quickly Build A Timer View
-快速生成一个计时条
-
+###Quickly Build A Timer View
+###非常简单实用的计时器视图，功能也很明显，快速生成时间计时条，动态控制计时器开始，结束，暂停，继续。结构简单延展性高，可以快速集成于你需要的地方，希望能带给你帮助，觉得还行记得Start哟~
 #Show What it is   
 #基本展示
 ##quickly build the timer view 
