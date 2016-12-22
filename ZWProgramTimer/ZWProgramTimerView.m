@@ -23,7 +23,6 @@
 
         
         UIView *showunderView=[[UIView alloc]init];
-        showunderView.backgroundColor=_timeCountColor?_timeCountColor:[UIColor orangeColor];
         [self addSubview:showunderView];
         self.showunderView=showunderView;
         
@@ -90,7 +89,8 @@
 {
     //    //显时器
     if (![self.countTimer isValid]) {
-        self.showunderView.frame=CGRectMake(0, 0, 0, 5);
+        self.showunderView.frame=CGRectMake(0, 0, 0, self.frame.size.height);
+        self.showunderView.backgroundColor=_timeCountColor?_timeCountColor:[UIColor yellowColor];
         self.toStartCountDown=self.originTimeFrequency;
         self.countTimer = [ NSTimer scheduledTimerWithTimeInterval:self.timeInterval?self.timeInterval:1.0
                                                             target:self
@@ -103,7 +103,7 @@
     {
     [self.countTimer invalidate];
     self.countTimer=nil;
-        self.showunderView.frame=CGRectMake(0, 0, 0, 5);
+        self.showunderView.frame=CGRectMake(0, 0, 0, self.frame.size.height);
         self.toStartCountDown=self.originTimeFrequency;
         self.countTimer = [ NSTimer scheduledTimerWithTimeInterval:self.timeInterval?self.timeInterval:1.0
                                                             target:self
@@ -121,7 +121,7 @@
 -(void)ZWProgramTimerEnd
 {
     if (![self.countTimer isValid]) {
-        self.showunderView.frame=CGRectMake(0, 0, 0, 5);
+        self.showunderView.frame=CGRectMake(0, 0, 0, self.frame.size.height);
         self.toStartCountDown=self.originTimeFrequency;
         if (self.originTimeFrequency>self.totalTimeFrequency) {
             self.totalTimeFrequency=self.originTimeFrequency;
@@ -131,7 +131,7 @@
     {
     [self.countTimer invalidate];
     self.countTimer=nil;
-    self.showunderView.frame=CGRectMake(0, 0, 0, 5);
+    self.showunderView.frame=CGRectMake(0, 0, 0, self.frame.size.height);
     self.toStartCountDown=self.originTimeFrequency;
     }
     self.timeCountLab.text=@"0%";
