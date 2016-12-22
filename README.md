@@ -1,5 +1,6 @@
 # ZWProgramTimerView
 Quickly Build A Timer View
+快速生成一个计时条
 
 #Show What it is    
 ##quickly build the timer view 
