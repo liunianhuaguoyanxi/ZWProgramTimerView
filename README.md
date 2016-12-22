@@ -2,10 +2,13 @@
 Quickly Build A Timer View
 快速生成一个计时条
 
-#Show What it is    
+#Show What it is   
+#基本展示
 ##quickly build the timer view 
+##快速创建计时条
 ![image](https://github.com/liunianhuaguoyanxi/ZWProgramTimerView/blob/master/Gif/ZWProgramTimer.gif)
-##quickly the timer view can start ,pause,continue,end
+##quickly the timer view can start ,pause,continue,end 
+##一键控制计时条开始，暂停，继续和结束
 ![image](https://github.com/liunianhuaguoyanxi/ZWProgramTimerView/blob/master/Gif/ZWProgramTimer1.gif)
 #How to use
 ## Init 初始化（important）
