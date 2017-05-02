@@ -19,10 +19,10 @@
 ### total Time Frequency       计时总次数
     programTimerView.totalTimeFrequency=50;
     
-###time Interval (Unit：Seconds)    计时间隔 （单位：秒）
+### time Interval (Unit：Seconds)    计时间隔 （单位：秒）
     programTimerView.timeInterval=0.05;
 
-###set delegate 设置代理
+### set delegate 设置代理
     programTimerView.delegate=self;
     
     [self.view addSubview:programTimerView];
